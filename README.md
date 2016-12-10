@@ -8,6 +8,7 @@ The function shouldn't be triggered by the same `blog` table or it will run inde
 
 ## Lambda config
 
-Runtime: Node.js 4.3
-Handler: index.handler
+- Runtime: Node.js 4.3
+- Handler: index.handler
+
 Best to start from `dynamodb-process-stream` blueprint and then add `dynamodb:BatchWriteItem` permission to the created role
