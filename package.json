@@ -1,10 +1,10 @@
 {
   "name": "lambda-dynamodb-highlightjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AWS Labmda function to apply highlight.js on dynamodb updates",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/vfeskov/lambda-dynamodb-highlightjs.git"
+    "type": "git",
+    "url": "https://github.com/vfeskov/lambda-dynamodb-highlightjs.git"
   },
   "main": "index.js",
   "scripts": {
