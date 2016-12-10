@@ -1,0 +1,20 @@
+{
+  "name": "lambda-dynamodb-highlightjs",
+  "version": "1.0.0",
+  "description": "AWS Labmda function to apply highlight.js on dynamodb updates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "dynamodb",
+    "hightlight.js"
+  ],
+  "author": "Vladimir Feskov",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^9.8.0"
+  }
+}
