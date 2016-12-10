@@ -13,7 +13,7 @@ exports.handler = (event, context, done) => {
     .filter(item => item.content)
     .map(item => Object.assign(item, {content: highlightjs(item.content)}))
     .map(item => ({PutRequest: {Item: item}}))
-  if (!putRequests.length) { return }
+  if (!putRequests.length) { return done() }
   const params = {RequestItems: {blog: putRequests}};
   console.log(JSON.stringify(params, null, 2))
   dynamo.batchWrite(params, done)
